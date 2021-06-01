@@ -31,7 +31,6 @@
 
 .login-container {
     border: 1px solid black;
-    border-radius: 10px;
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
@@ -41,4 +40,28 @@
 .user,
 .pass {
     margin: 10px;
+}
+
+.container {
+    margin: 20px auto;
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    width: 300px;
+    padding: 8px;
+}
+
+.label {
+    flex: 0 0 40%;
+}
+
+.input {
+    flex: 0 0 60%;
 }
